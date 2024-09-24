@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="PigWorld" extends="World" extends-java="World" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports>
+        <import target="java.util.*" enable="true"/>
+        <import target="greenfoot.*" enable="true"/>
+    </imports>
+    <implements/>
+    <fields/>
+    <constructors>
+        <constructor access="public" enable="true">
+            <javadoc xml:space="preserve">Constructor for objects of class PigWorld.</javadoc>
+            <params/>
+            <throws/>
+            <delegate target="super" params="900,600,1" params-java="900, 600, 1"/>
+            <body>
+                <call expression="prepare()" expression-java="prepare()" enable="true"/>
+            </body>
+        </constructor>
+    </constructors>
+    <methods>
+        <method access="private" type="void" type-java="void" name="prepare" enable="true">
+            <javadoc xml:space="preserve">Prepare the world for the start of the program.
+That is: create the initial objects and add them to the world.</javadoc>
+            <params/>
+            <throws/>
+            <body>
+                <variable type="burger" type-java="burger" name="burger" value="new burger()" value-java=" new burger()" enable="true"/>
+                <call expression="addObject(burger,798,92)" expression-java="addObject(burger, 798, 92)" enable="true"/>
+                <variable type="burger" type-java="burger" name="burger2" value="new burger()" value-java=" new burger()" enable="true"/>
+                <call expression="addObject(burger2,55,46)" expression-java="addObject(burger2, 55, 46)" enable="true"/>
+                <variable type="burger" type-java="burger" name="burger3" value="new burger()" value-java=" new burger()" enable="true"/>
+                <call expression="addObject(burger3,567,139)" expression-java="addObject(burger3, 567, 139)" enable="true"/>
+                <variable type="burger" type-java="burger" name="burger4" value="new burger()" value-java=" new burger()" enable="true"/>
+                <call expression="addObject(burger4,708,347)" expression-java="addObject(burger4, 708, 347)" enable="true"/>
+                <variable type="burger" type-java="burger" name="burger5" value="new burger()" value-java=" new burger()" enable="true"/>
+                <call expression="addObject(burger5,59,478)" expression-java="addObject(burger5, 59, 478)" enable="true"/>
+                <variable type="burger" type-java="burger" name="burger6" value="new burger()" value-java=" new burger()" enable="true"/>
+                <call expression="addObject(burger6,96,232)" expression-java="addObject(burger6, 96, 232)" enable="true"/>
+                <variable type="burger" type-java="burger" name="burger7" value="new burger()" value-java=" new burger()" enable="true"/>
+                <call expression="addObject(burger7,351,494)" expression-java="addObject(burger7, 351, 494)" enable="true"/>
+                <variable type="pig" type-java="pig" name="pig" value="new pig()" value-java=" new pig()" enable="true"/>
+                <call expression="addObject(pig,355,314)" expression-java="addObject(pig, 355, 314)" enable="true"/>
+                <variable type="snake" type-java="snake" name="snake" value="new snake()" value-java=" new snake()" enable="true"/>
+                <call expression="addObject(snake,873,572)" expression-java="addObject(snake, 873, 572)" enable="true"/>
+            </body>
+        </method>
+    </methods>
+</class>
